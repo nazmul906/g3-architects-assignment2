@@ -43,13 +43,14 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 82px; /* its distance butweem container 1 and 2*/
 }
 .firstContainerTitle {
   margin-left: 346px;
   margin-right: 346px;
   margin-bottom: 32px;
 }
-.btn1 {
+.btnPrimary1 {
   margin-left: 647px;
   margin-right: 647px;
   margin-bottom: 50px;
@@ -72,4 +73,65 @@ header {
 
   padding-left: 200px;
   padding-right: 200px;
+}
+
+/*Second Section*/
+
+.containerTwo {
+  display: flex;
+}
+.gridpic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 24px;
+  grid-column-gap: 24px;
+}
+.gridpic img {
+  width: 342px;
+  height: 342px;
+}
+.containerTworight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* two position conetent center*/
+  align-items: center;
+  margin-left: 73px;
+}
+.ConTwoRightTitle {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 24px;
+  /* Dark 03 */
+
+  color: #727272;
+}
+.ConTwoRightPara {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 32px;
+  /* or 162% */
+
+  /* Dark 03 */
+
+  color: #727272;
+}
+.btnPrimary2 {
+  width: 180px;
+  height: 64px;
+  border-radius: 8px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  background: #ff900e;
+
+  border: 0;
+  padding: 20px 25px;
 }
