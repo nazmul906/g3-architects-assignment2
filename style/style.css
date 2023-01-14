@@ -1,3 +1,75 @@
-h3 {
-  font-size: 50;
+/* body {
+ 
+  width: 1554px;
+  height: 1311px;
+} */
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center; /* to bring them in same line*/
+  gap: 670px;
+}
+.mainTitle {
+  /* margin-right: 37px; */
+  margin-left: 45px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+
+  color: #131313;
+}
+.navTitle {
+  /* try again by set wd hght and justify content*/
+  /* width: 277px;
+  height: 26px; */
+  height: 26px;
+  color: #424242;
+  margin-right: 57px;
+  /* margin-top: 49px; */
+  display: flex;
+  gap: 10px;
+  /* text-align: center; */
+  /* margin: 0 auto; */
+}
+.navTitle title {
+  text-align: center;
+}
+
+/*first section*/
+
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.firstContainerTitle {
+  margin-left: 346px;
+  margin-right: 346px;
+  margin-bottom: 32px;
+}
+.btn1 {
+  margin-left: 647px;
+  margin-right: 647px;
+  margin-bottom: 50px;
+  width: 180px;
+  height: 64px;
+  border-radius: 8px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  background: #ff900e;
+
+  border: 0;
+  padding: 20px 25px;
+}
+.contnrimg {
+  width: 1440px;
+  height: 700px;
+
+  padding-left: 200px;
+  padding-right: 200px;
 }
