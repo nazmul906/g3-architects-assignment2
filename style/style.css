@@ -461,7 +461,7 @@ header {
   width: 166.76px;
   height: 50px;
 }
-.footer {
+.footer h4 {
   background: #fff4e7;
   border-radius: 8px;
   text-align: center;
@@ -472,10 +472,46 @@ header {
   font-size: 20px;
   line-height: 23px;
   text-align: center;
+  margin-bottom: 20px;
 
   /* Dark 02 */
 
   color: #424242;
+}
+.mission {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.mission img {
+  width: 100%;
+}
+.mission h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 43px;
+  /* identical to box height */
+
+  /* Dark 01 */
+
+  margin-bottom: 54px;
+  text-align: center;
+  color: #131313;
+}
+.mission p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+
+  margin: 0;
+  text-align: center;
+
+  color: #727272;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
 /*Mobile Responsive*/
@@ -607,7 +643,19 @@ header {
     font-size: 12px;
   }
 }
+.mission h2 {
+  font-family: "Work Sans";
 
+  font-size: 24px;
+  line-height: 10px;
+  margin: 0;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #131313;
+}
+.mission img {
+  width: 83%;
+}
 .hide {
   display: none;
 }
