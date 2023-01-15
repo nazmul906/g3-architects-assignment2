@@ -492,12 +492,12 @@ header {
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
-  line-height: 43px;
+  line-height: 53px;
   /* identical to box height */
 
   /* Dark 01 */
-
-  margin-bottom: 54px;
+  margin: 0;
+  margin-bottom: 24px;
   text-align: center;
   color: #131313;
 }
@@ -513,7 +513,20 @@ header {
   margin-bottom: 20px;
   font-size: 16px;
 }
+/* .btnPrimary4 {
+  width: 180px;
+  height: 64px;
+  border-radius: 8px;
 
+  color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  background: #ff900e;
+
+  border: 0;
+  padding: 20px 25px;
+} */
 /*Mobile Responsive*/
 @media only screen and (max-width: 576px) {
   header {
@@ -589,8 +602,13 @@ header {
   }
   .containerTworight p {
     line-height: 18px;
+    margin-left: 63px;
+    margin-right: 75px;
   }
-
+  .ConTwoRightTitle h1 {
+    margin-left: 63px;
+    margin-right: 75px;
+  }
   /*3rd*/
   .thridContainer {
     display: flex;
@@ -601,35 +619,64 @@ header {
     margin-top: 20px;
     margin-right: 32px;
   }
+  .containerThreefirstRight button {
+    margin-left: 63px;
+    margin-right: 65px;
+  }
   .containerThreefirstLeft {
     margin-top: 30px;
     text-align: center;
     margin-right: 34px;
     margin-left: 35px;
   }
+  .containerThreefirstLeft p {
+    margin-left: 63px;
+    margin-right: 65px;
+  }
   .co3lefttitle {
     font-size: 20px;
 
     width: 100%;
   }
+  .co3lefttitle h1 {
+    margin-left: 63px;
+    margin-right: 65px;
+  }
   /*4th*/
   .fourthContainerTitle {
     font-size: 20px;
+    margin-left: 63px;
+    margin-right: 75px;
   }
   .fourthContainerPara {
     width: 100%;
   }
+  .fourthContainerPara p {
+    margin-left: 63px;
+    margin-right: 75px;
+    margin-bottom: 130px;
+  }
   .fourthContainerdown {
     grid-template-columns: repeat(1, 1fr);
   }
-
+  .fourthcon3 {
+    margin-left: 63px;
+    margin-right: 65px;
+  }
   /*5th*/
   .fifthContainer1st {
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 140px;
     margin-top: 50px;
   }
-
+  .fifthContainer1st h2 {
+    margin-left: 63px;
+    margin-right: 75px;
+  }
+  .fifthContainer1st p {
+    margin-left: 63px;
+    margin-right: 75px;
+  }
   .fifthContainer2nd {
     grid-template-columns: repeat(1, 1fr);
     display: flex;
@@ -653,9 +700,19 @@ header {
   text-align: center;
   color: #131313;
 }
+.mission p {
+  margin-left: 63px;
+  margin-right: 75px;
+}
 .mission img {
-  width: 83%;
+  width: 81%;
+  margin-right: 22px;
+  margin-left: 20px;
 }
 .hide {
   display: none;
+}
+.footer {
+  margin-left: 63px;
+  margin-right: 75px;
 }
