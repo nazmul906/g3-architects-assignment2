@@ -7,32 +7,50 @@ header {
   display: flex;
   justify-content: space-between;
   text-align: center; /* to bring them in same line*/
-  gap: 670px;
 }
-.mainTitle {
+.headContainer h1 {
   /* margin-right: 37px; */
-  margin-left: 45px;
+  /* margin-left: 45px;
+   */
+
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 700;
+  font-size: 40px;
 
+  /* identical to box height */
+
+  text-align: center;
+  margin-right: 500px;
+  /* Dark 01 */
+  margin-bottom: 100px;
   color: #131313;
 }
 .navTitle {
   /* try again by set wd hght and justify content*/
   /* width: 277px;
   height: 26px; */
-  height: 26px;
-  color: #424242;
+  display: flex;
+  justify-content: space-between;
   margin-right: 57px;
   /* margin-top: 49px; */
-  display: flex;
-  gap: 10px;
-  /* text-align: center; */
-  /* margin: 0 auto; */
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 116px;
 }
-.navTitle title {
+.navTitle h5 {
   text-align: center;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+
+  /* identical to box height, or 144% */
+
+  /* Dark 02 */
+
+  color: #424242;
 }
 
 /*first section*/
@@ -48,6 +66,32 @@ header {
   margin-left: 346px;
   margin-right: 346px;
   margin-bottom: 32px;
+  /* width: 862px;
+  height: 225px; */
+}
+.firstContainerTitle h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  /* line-height: 75px; */
+  text-align: center;
+  margin: 0;
+  /* Dark 01 */
+
+  color: #131313;
+}
+.firstContainerTitle p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /*line-height: 26px; */
+  /* or 162% */
+  margin: 0;
+  text-align: center;
+
+  color: #727272;
 }
 .btnPrimary1 {
   margin-left: 647px;
@@ -108,6 +152,13 @@ header {
   margin-bottom: 24px;
   color: #727272;
 }
+
+.sp1 {
+  color: black;
+}
+.sp2 {
+  color: #ff900e;
+}
 .containerTworight p {
   font-family: "Work Sans";
   font-style: normal;
@@ -138,12 +189,13 @@ header {
 }
 
 /*Third Containre*/
-/* .thridContainer {
-} */
-
-.containerThreefirst {
+.thridContainer {
   display: flex;
 }
+
+/* .containerThreefirst {
+  display: flex;
+} */
 .containerThreefirstLeft {
   display: flex;
   flex-direction: column;
@@ -170,9 +222,9 @@ header {
   font-weight: 700;
   font-size: 35px;
   margin: 0;
-  padding: 0;
-  margin-bottom: 24px;
 
+  margin-bottom: 24px;
+  /* margin-right: 120px; */
   /* Dark 01 */
 
   color: #131313;
@@ -231,27 +283,41 @@ header {
 }
 
 .containerThreefirstRight img {
+  width: 100%;
   margin-top: 170px;
+  margin-right: 132px;
 }
 
 .containerThreefirstRight button {
   position: absolute;
-  top: 2800px;
+  top: 2600px;
 
-  right: 500px;
+  right: 400px;
 
   width: 180px;
-  height: 64px;
+  height: 130px;
 
   text-align: center;
   color: #ffffff;
   font-family: "Work Sans";
   font-style: normal;
-  font-weight: 600;
-  background: #ff900e;
 
+  background: #ff900e;
+  /* padding: 46px 42px; */
   border: 0;
-  padding: 20px 25px;
+  /* padding: 20px 25px; */
+
+  font-weight: 700;
+
+  /* or 108% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.sp3 {
+  font-size: 30px;
 }
 
 /*fourth container*/
@@ -355,13 +421,39 @@ header {
   align-items: center; */
   /* margin-left: 315px; */
   margin: 0 auto;
+  margin-top: 180px;
   margin-bottom: 50px;
+}
+.fifthContainer1st h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  /* identical to box height */
+
+  /* Dark 01 */
+  margin: 0;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #131313;
+}
+.fifthContainer1st p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+
+  margin: 0;
+  text-align: center;
+
+  color: #727272;
 }
 
 .fifthContainer2nd {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   /* grid-gap: 150px; */
+  margin-bottom: 140px;
 }
 .fifthContainer2nd img {
   width: 166.76px;
@@ -371,4 +463,15 @@ header {
   background: #fff4e7;
   border-radius: 8px;
   text-align: center;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  /* Dark 02 */
+
+  color: #424242;
 }
