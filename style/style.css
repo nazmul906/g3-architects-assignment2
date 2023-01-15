@@ -289,11 +289,11 @@ header {
 }
 
 .containerThreefirstRight button {
-  position: absolute;
-  top: 2600px;
+  position: relative;
+  /* top: 2600px;
 
-  right: 400px;
-
+  right: 400px; */
+  top: -60px;
   width: 180px;
   height: 130px;
 
